@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_principal">
+
+    <LinearLayout
+        android:id="@+id/activity_menu_principal_linear"
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp">
+
+        <Button
+            android:id="@+id/activity_menuprincipal_btn_nombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombres"
+            tools:layout_editor_absoluteX="247dp"
+            tools:layout_editor_absoluteY="301dp" />
+
+        <Button
+            android:id="@+id/activity_menuprincipak_btn_restaurante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Restaurante"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="220dp" />
+
+        <Button
+            android:id="@+id/activity_menuprincipal_btn_numeros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numeros Aleatorios"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="334dp" />
+
+        <Button
+            android:id="@+id/activity_menuprincipal_btn_lugares"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lugares" />
+
+        <Button
+            android:id="@+id/activity_menuprincipal_btn_actividades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actividades" />
+
+        <Button
+            android:id="@+id/activity_menuprincipal_btn_bares"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bares" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_menu_principal_linearL_salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/activity_menu_principal_btn_salir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Salir"
+            android:text="Salir" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
